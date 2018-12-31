@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D3DEFD821DA252E00D8D3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DEFD721DA252E00D8D3BD /* AppDelegate.swift */; };
+		6D3DEFDA21DA252E00D8D3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DEFD921DA252E00D8D3BD /* ViewController.swift */; };
+		6D3DEFDC21DA253000D8D3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DEFDB21DA253000D8D3BD /* Assets.xcassets */; };
+		6D3DEFDF21DA253000D8D3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DEFDD21DA253000D8D3BD /* Main.storyboard */; };
+		6D3DEFEB21DA253100D8D3BD /* GMLRenameFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DEFEA21DA253100D8D3BD /* GMLRenameFileTests.swift */; };
+		6D3DEFF621DA253100D8D3BD /* GMLRenameFileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DEFF521DA253100D8D3BD /* GMLRenameFileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D3DEFE721DA253100D8D3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D3DEFCC21DA252E00D8D3BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3DEFD321DA252E00D8D3BD;
+			remoteInfo = GMLRenameFile;
+		};
+		6D3DEFF221DA253100D8D3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D3DEFCC21DA252E00D8D3BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3DEFD321DA252E00D8D3BD;
+			remoteInfo = GMLRenameFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D3DEFD421DA252E00D8D3BD /* GMLRenameFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMLRenameFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3DEFD721DA252E00D8D3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D3DEFD921DA252E00D8D3BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D3DEFDB21DA253000D8D3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D3DEFDE21DA253000D8D3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D3DEFE021DA253000D8D3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3DEFE121DA253000D8D3BD /* GMLRenameFile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GMLRenameFile.entitlements; sourceTree = "<group>"; };
+		6D3DEFE621DA253100D8D3BD /* GMLRenameFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMLRenameFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3DEFEA21DA253100D8D3BD /* GMLRenameFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRenameFileTests.swift; sourceTree = "<group>"; };
+		6D3DEFEC21DA253100D8D3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3DEFF121DA253100D8D3BD /* GMLRenameFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMLRenameFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3DEFF521DA253100D8D3BD /* GMLRenameFileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRenameFileUITests.swift; sourceTree = "<group>"; };
+		6D3DEFF721DA253100D8D3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D3DEFD121DA252E00D8D3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3DEFE321DA253100D8D3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3DEFEE21DA253100D8D3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D3DEFCB21DA252E00D8D3BD = {
+			isa = PBXGroup;
+			children = (
+				6D3DEFD621DA252E00D8D3BD /* GMLRenameFile */,
+				6D3DEFE921DA253100D8D3BD /* GMLRenameFileTests */,
+				6D3DEFF421DA253100D8D3BD /* GMLRenameFileUITests */,
+				6D3DEFD521DA252E00D8D3BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D3DEFD521DA252E00D8D3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D3DEFD421DA252E00D8D3BD /* GMLRenameFile.app */,
+				6D3DEFE621DA253100D8D3BD /* GMLRenameFileTests.xctest */,
+				6D3DEFF121DA253100D8D3BD /* GMLRenameFileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D3DEFD621DA252E00D8D3BD /* GMLRenameFile */ = {
+			isa = PBXGroup;
+			children = (
+				6D3DEFD721DA252E00D8D3BD /* AppDelegate.swift */,
+				6D3DEFD921DA252E00D8D3BD /* ViewController.swift */,
+				6D3DEFDB21DA253000D8D3BD /* Assets.xcassets */,
+				6D3DEFDD21DA253000D8D3BD /* Main.storyboard */,
+				6D3DEFE021DA253000D8D3BD /* Info.plist */,
+				6D3DEFE121DA253000D8D3BD /* GMLRenameFile.entitlements */,
+			);
+			path = GMLRenameFile;
+			sourceTree = "<group>";
+		};
+		6D3DEFE921DA253100D8D3BD /* GMLRenameFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D3DEFEA21DA253100D8D3BD /* GMLRenameFileTests.swift */,
+				6D3DEFEC21DA253100D8D3BD /* Info.plist */,
+			);
+			path = GMLRenameFileTests;
+			sourceTree = "<group>";
+		};
+		6D3DEFF421DA253100D8D3BD /* GMLRenameFileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D3DEFF521DA253100D8D3BD /* GMLRenameFileUITests.swift */,
+				6D3DEFF721DA253100D8D3BD /* Info.plist */,
+			);
+			path = GMLRenameFileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D3DEFD321DA252E00D8D3BD /* GMLRenameFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3DEFFA21DA253100D8D3BD /* Build configuration list for PBXNativeTarget "GMLRenameFile" */;
+			buildPhases = (
+				6D3DEFD021DA252E00D8D3BD /* Sources */,
+				6D3DEFD121DA252E00D8D3BD /* Frameworks */,
+				6D3DEFD221DA252E00D8D3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMLRenameFile;
+			productName = GMLRenameFile;
+			productReference = 6D3DEFD421DA252E00D8D3BD /* GMLRenameFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D3DEFE521DA253100D8D3BD /* GMLRenameFileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3DEFFD21DA253100D8D3BD /* Build configuration list for PBXNativeTarget "GMLRenameFileTests" */;
+			buildPhases = (
+				6D3DEFE221DA253100D8D3BD /* Sources */,
+				6D3DEFE321DA253100D8D3BD /* Frameworks */,
+				6D3DEFE421DA253100D8D3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D3DEFE821DA253100D8D3BD /* PBXTargetDependency */,
+			);
+			name = GMLRenameFileTests;
+			productName = GMLRenameFileTests;
+			productReference = 6D3DEFE621DA253100D8D3BD /* GMLRenameFileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D3DEFF021DA253100D8D3BD /* GMLRenameFileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3DF00021DA253100D8D3BD /* Build configuration list for PBXNativeTarget "GMLRenameFileUITests" */;
+			buildPhases = (
+				6D3DEFED21DA253100D8D3BD /* Sources */,
+				6D3DEFEE21DA253100D8D3BD /* Frameworks */,
+				6D3DEFEF21DA253100D8D3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D3DEFF321DA253100D8D3BD /* PBXTargetDependency */,
+			);
+			name = GMLRenameFileUITests;
+			productName = GMLRenameFileUITests;
+			productReference = 6D3DEFF121DA253100D8D3BD /* GMLRenameFileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D3DEFCC21DA252E00D8D3BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GML;
+				TargetAttributes = {
+					6D3DEFD321DA252E00D8D3BD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6D3DEFE521DA253100D8D3BD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6D3DEFD321DA252E00D8D3BD;
+					};
+					6D3DEFF021DA253100D8D3BD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6D3DEFD321DA252E00D8D3BD;
+					};
+				};
+			};
+			buildConfigurationList = 6D3DEFCF21DA252E00D8D3BD /* Build configuration list for PBXProject "GMLRenameFile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D3DEFCB21DA252E00D8D3BD;
+			productRefGroup = 6D3DEFD521DA252E00D8D3BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D3DEFD321DA252E00D8D3BD /* GMLRenameFile */,
+				6D3DEFE521DA253100D8D3BD /* GMLRenameFileTests */,
+				6D3DEFF021DA253100D8D3BD /* GMLRenameFileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D3DEFD221DA252E00D8D3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3DEFDC21DA253000D8D3BD /* Assets.xcassets in Resources */,
+				6D3DEFDF21DA253000D8D3BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3DEFE421DA253100D8D3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3DEFEF21DA253100D8D3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D3DEFD021DA252E00D8D3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3DEFDA21DA252E00D8D3BD /* ViewController.swift in Sources */,
+				6D3DEFD821DA252E00D8D3BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3DEFE221DA253100D8D3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3DEFEB21DA253100D8D3BD /* GMLRenameFileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3DEFED21DA253100D8D3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3DEFF621DA253100D8D3BD /* GMLRenameFileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D3DEFE821DA253100D8D3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D3DEFD321DA252E00D8D3BD /* GMLRenameFile */;
+			targetProxy = 6D3DEFE721DA253100D8D3BD /* PBXContainerItemProxy */;
+		};
+		6D3DEFF321DA253100D8D3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D3DEFD321DA252E00D8D3BD /* GMLRenameFile */;
+			targetProxy = 6D3DEFF221DA253100D8D3BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D3DEFDD21DA253000D8D3BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D3DEFDE21DA253000D8D3BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D3DEFF821DA253100D8D3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D3DEFF921DA253100D8D3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6D3DEFFB21DA253100D8D3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GMLRenameFile/GMLRenameFile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GMLRenameFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.GMLRenameFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		6D3DEFFC21DA253100D8D3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GMLRenameFile/GMLRenameFile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GMLRenameFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.GMLRenameFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		6D3DEFFE21DA253100D8D3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GMLRenameFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.GMLRenameFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLRenameFile.app/Contents/MacOS/GMLRenameFile";
+			};
+			name = Debug;
+		};
+		6D3DEFFF21DA253100D8D3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GMLRenameFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.GMLRenameFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLRenameFile.app/Contents/MacOS/GMLRenameFile";
+			};
+			name = Release;
+		};
+		6D3DF00121DA253100D8D3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GMLRenameFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.GMLRenameFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = GMLRenameFile;
+			};
+			name = Debug;
+		};
+		6D3DF00221DA253100D8D3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GMLRenameFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.GMLRenameFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = GMLRenameFile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D3DEFCF21DA252E00D8D3BD /* Build configuration list for PBXProject "GMLRenameFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3DEFF821DA253100D8D3BD /* Debug */,
+				6D3DEFF921DA253100D8D3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D3DEFFA21DA253100D8D3BD /* Build configuration list for PBXNativeTarget "GMLRenameFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3DEFFB21DA253100D8D3BD /* Debug */,
+				6D3DEFFC21DA253100D8D3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D3DEFFD21DA253100D8D3BD /* Build configuration list for PBXNativeTarget "GMLRenameFileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3DEFFE21DA253100D8D3BD /* Debug */,
+				6D3DEFFF21DA253100D8D3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D3DF00021DA253100D8D3BD /* Build configuration list for PBXNativeTarget "GMLRenameFileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3DF00121DA253100D8D3BD /* Debug */,
+				6D3DF00221DA253100D8D3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D3DEFCC21DA252E00D8D3BD /* Project object */;
+}
