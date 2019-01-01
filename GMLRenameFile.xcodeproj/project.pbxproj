@@ -17,6 +17,7 @@
 		6D3DF00B21DA287200D8D3BD /* GMLPropertyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00A21DA287200D8D3BD /* GMLPropertyService.swift */; };
 		6D3DF00D21DA288200D8D3BD /* GMLMethodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00C21DA288200D8D3BD /* GMLMethodService.swift */; };
 		6D3DF00F21DA290A00D8D3BD /* GMLPropertyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00E21DA290A00D8D3BD /* GMLPropertyMode.swift */; };
+		6D970EE921DB763E00F218FF /* GMLFileMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D970EE821DB763E00F218FF /* GMLFileMode.swift */; };
 		6DBD6DB821DA607A00672186 /* GMLRenameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD6DB721DA607A00672186 /* GMLRenameManager.swift */; };
 		6DBD6DBF21DA616700672186 /* GMLClassDefineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD6DBE21DA616700672186 /* GMLClassDefineType.swift */; };
 		6DBD6DC121DA618400672186 /* GMLClassMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD6DC021DA618400672186 /* GMLClassMode.swift */; };
@@ -58,6 +59,7 @@
 		6D3DF00A21DA287200D8D3BD /* GMLPropertyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLPropertyService.swift; sourceTree = "<group>"; };
 		6D3DF00C21DA288200D8D3BD /* GMLMethodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLMethodService.swift; sourceTree = "<group>"; };
 		6D3DF00E21DA290A00D8D3BD /* GMLPropertyMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLPropertyMode.swift; sourceTree = "<group>"; };
+		6D970EE821DB763E00F218FF /* GMLFileMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLFileMode.swift; sourceTree = "<group>"; };
 		6DBD6DB721DA607A00672186 /* GMLRenameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRenameManager.swift; sourceTree = "<group>"; };
 		6DBD6DBE21DA616700672186 /* GMLClassDefineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLClassDefineType.swift; sourceTree = "<group>"; };
 		6DBD6DC021DA618400672186 /* GMLClassMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLClassMode.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				6DBD6DC021DA618400672186 /* GMLClassMode.swift */,
 				6D3DF00E21DA290A00D8D3BD /* GMLPropertyMode.swift */,
 				6DBD6DC221DA619200672186 /* GMLMethodMode.swift */,
+				6D970EE821DB763E00F218FF /* GMLFileMode.swift */,
 			);
 			path = ClassModel;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				6D3DF00D21DA288200D8D3BD /* GMLMethodService.swift in Sources */,
 				6DBD6DC321DA619200672186 /* GMLMethodMode.swift in Sources */,
 				6DBD6DB821DA607A00672186 /* GMLRenameManager.swift in Sources */,
+				6D970EE921DB763E00F218FF /* GMLFileMode.swift in Sources */,
 				6D3DEFDA21DA252E00D8D3BD /* ViewController.swift in Sources */,
 				6D3DF00F21DA290A00D8D3BD /* GMLPropertyMode.swift in Sources */,
 				6D3DEFD821DA252E00D8D3BD /* AppDelegate.swift in Sources */,

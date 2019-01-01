@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+
 struct GMLOCPropertyType : OptionSet {
     var rawValue: Int
     init(rawValue: Int) {
