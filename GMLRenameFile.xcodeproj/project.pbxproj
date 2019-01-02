@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1878EAA021DC519B00E4B51A /* GMLOCMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878EA9F21DC519B00E4B51A /* GMLOCMode.swift */; };
+		1878EAA221DC53B300E4B51A /* GMLOCClassSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878EAA121DC53B300E4B51A /* GMLOCClassSet.swift */; };
+		1878EAAA21DC6DEB00E4B51A /* GMLOCEnumSetMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878EAA921DC6DEB00E4B51A /* GMLOCEnumSetMode.swift */; };
+		1878EAAC21DC6E2900E4B51A /* GMLOCEnumMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878EAAB21DC6E2900E4B51A /* GMLOCEnumMode.swift */; };
 		6D3DEFD821DA252E00D8D3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DEFD721DA252E00D8D3BD /* AppDelegate.swift */; };
 		6D3DEFDA21DA252E00D8D3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DEFD921DA252E00D8D3BD /* ViewController.swift */; };
 		6D3DEFDC21DA253000D8D3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3DEFDB21DA253000D8D3BD /* Assets.xcassets */; };
@@ -42,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1878EA9F21DC519B00E4B51A /* GMLOCMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLOCMode.swift; sourceTree = "<group>"; };
+		1878EAA121DC53B300E4B51A /* GMLOCClassSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLOCClassSet.swift; sourceTree = "<group>"; };
+		1878EAA921DC6DEB00E4B51A /* GMLOCEnumSetMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLOCEnumSetMode.swift; sourceTree = "<group>"; };
+		1878EAAB21DC6E2900E4B51A /* GMLOCEnumMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLOCEnumMode.swift; sourceTree = "<group>"; };
 		6D3DEFD421DA252E00D8D3BD /* GMLRenameFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMLRenameFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D3DEFD721DA252E00D8D3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D3DEFD921DA252E00D8D3BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +99,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1878EAAD21DC8E3000E4B51A /* ClassMode */ = {
+			isa = PBXGroup;
+			children = (
+				1878EAA121DC53B300E4B51A /* GMLOCClassSet.swift */,
+				6DBD6DC021DA618400672186 /* GMLClassMode.swift */,
+			);
+			path = ClassMode;
+			sourceTree = "<group>";
+		};
+		1878EAAE21DC9E5200E4B51A /* EnumMode */ = {
+			isa = PBXGroup;
+			children = (
+				1878EAA921DC6DEB00E4B51A /* GMLOCEnumSetMode.swift */,
+				1878EAAB21DC6E2900E4B51A /* GMLOCEnumMode.swift */,
+			);
+			path = EnumMode;
+			sourceTree = "<group>";
+		};
 		6D3DEFCB21DA252E00D8D3BD = {
 			isa = PBXGroup;
 			children = (
@@ -146,8 +172,10 @@
 		6D3DF00721DA281000D8D3BD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1878EAAE21DC9E5200E4B51A /* EnumMode */,
+				1878EAAD21DC8E3000E4B51A /* ClassMode */,
 				6DBD6DBD21DA614300672186 /* DefineType */,
-				6DBD6DBA21DA610600672186 /* ClassModel */,
+				6DBD6DBA21DA610600672186 /* FileModel */,
 				6DBD6DB921DA60F200672186 /* ClassServices */,
 				6DBD6DB721DA607A00672186 /* GMLRenameManager.swift */,
 			);
@@ -164,15 +192,15 @@
 			path = ClassServices;
 			sourceTree = "<group>";
 		};
-		6DBD6DBA21DA610600672186 /* ClassModel */ = {
+		6DBD6DBA21DA610600672186 /* FileModel */ = {
 			isa = PBXGroup;
 			children = (
-				6DBD6DC021DA618400672186 /* GMLClassMode.swift */,
+				1878EA9F21DC519B00E4B51A /* GMLOCMode.swift */,
 				6D3DF00E21DA290A00D8D3BD /* GMLPropertyMode.swift */,
 				6DBD6DC221DA619200672186 /* GMLMethodMode.swift */,
 				6D970EE821DB763E00F218FF /* GMLFileMode.swift */,
 			);
-			path = ClassModel;
+			path = FileModel;
 			sourceTree = "<group>";
 		};
 		6DBD6DBD21DA614300672186 /* DefineType */ = {
@@ -313,15 +341,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1878EAA021DC519B00E4B51A /* GMLOCMode.swift in Sources */,
 				6DBD6DC121DA618400672186 /* GMLClassMode.swift in Sources */,
 				6D3DF00921DA282500D8D3BD /* GMLClassService.swift in Sources */,
 				6D3DF00B21DA287200D8D3BD /* GMLPropertyService.swift in Sources */,
 				6DBD6DBF21DA616700672186 /* GMLClassDefineType.swift in Sources */,
 				6D3DF00D21DA288200D8D3BD /* GMLMethodService.swift in Sources */,
+				1878EAA221DC53B300E4B51A /* GMLOCClassSet.swift in Sources */,
 				6DBD6DC321DA619200672186 /* GMLMethodMode.swift in Sources */,
 				6DBD6DB821DA607A00672186 /* GMLRenameManager.swift in Sources */,
+				1878EAAA21DC6DEB00E4B51A /* GMLOCEnumSetMode.swift in Sources */,
 				6D970EE921DB763E00F218FF /* GMLFileMode.swift in Sources */,
 				6D3DEFDA21DA252E00D8D3BD /* ViewController.swift in Sources */,
+				1878EAAC21DC6E2900E4B51A /* GMLOCEnumMode.swift in Sources */,
 				6D3DF00F21DA290A00D8D3BD /* GMLPropertyMode.swift in Sources */,
 				6D3DEFD821DA252E00D8D3BD /* AppDelegate.swift in Sources */,
 			);
