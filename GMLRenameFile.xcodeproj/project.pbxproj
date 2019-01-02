@@ -21,6 +21,30 @@
 		6D3DF00B21DA287200D8D3BD /* GMLPropertyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00A21DA287200D8D3BD /* GMLPropertyService.swift */; };
 		6D3DF00D21DA288200D8D3BD /* GMLMethodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00C21DA288200D8D3BD /* GMLMethodService.swift */; };
 		6D3DF00F21DA290A00D8D3BD /* GMLPropertyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00E21DA290A00D8D3BD /* GMLPropertyMode.swift */; };
+		6D515A5B21DCFC7C00BCE7AD /* GMLFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A5A21DCFC7C00BCE7AD /* GMLFileService.swift */; };
+		6D515A5D21DCFCFB00BCE7AD /* GMLClassSetMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A5C21DCFCFB00BCE7AD /* GMLClassSetMode.swift */; };
+		6D515A6521DCFDA400BCE7AD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A6421DCFDA400BCE7AD /* main.swift */; };
+		6D515A6921DCFDB600BCE7AD /* GMLOCEnumSetMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878EAA921DC6DEB00E4B51A /* GMLOCEnumSetMode.swift */; };
+		6D515A6A21DCFDB800BCE7AD /* GMLOCEnumMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878EAAB21DC6E2900E4B51A /* GMLOCEnumMode.swift */; };
+		6D515A6B21DCFDC900BCE7AD /* GMLOCClassSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878EAA121DC53B300E4B51A /* GMLOCClassSet.swift */; };
+		6D515A6C21DCFDC900BCE7AD /* GMLClassMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD6DC021DA618400672186 /* GMLClassMode.swift */; };
+		6D515A6D21DCFDC900BCE7AD /* GMLClassSetMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A5C21DCFCFB00BCE7AD /* GMLClassSetMode.swift */; };
+		6D515A6E21DCFDC900BCE7AD /* GMLClassDefineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD6DBE21DA616700672186 /* GMLClassDefineType.swift */; };
+		6D515A6F21DCFDC900BCE7AD /* GMLOCMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878EA9F21DC519B00E4B51A /* GMLOCMode.swift */; };
+		6D515A7021DCFDC900BCE7AD /* GMLPropertyMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00E21DA290A00D8D3BD /* GMLPropertyMode.swift */; };
+		6D515A7121DCFDC900BCE7AD /* GMLMethodMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD6DC221DA619200672186 /* GMLMethodMode.swift */; };
+		6D515A7221DCFDC900BCE7AD /* GMLFileMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D970EE821DB763E00F218FF /* GMLFileMode.swift */; };
+		6D515A7321DCFDC900BCE7AD /* GMLClassService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00821DA282500D8D3BD /* GMLClassService.swift */; };
+		6D515A7421DCFDC900BCE7AD /* GMLPropertyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00A21DA287200D8D3BD /* GMLPropertyService.swift */; };
+		6D515A7521DCFDC900BCE7AD /* GMLMethodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DF00C21DA288200D8D3BD /* GMLMethodService.swift */; };
+		6D515A7621DCFDC900BCE7AD /* GMLFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A5A21DCFC7C00BCE7AD /* GMLFileService.swift */; };
+		6D515A7721DCFDC900BCE7AD /* GMLRenameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD6DB721DA607A00672186 /* GMLRenameManager.swift */; };
+		6D515A9021DCFFA900BCE7AD /* GMLEnumMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A8F21DCFFA900BCE7AD /* GMLEnumMode.swift */; };
+		6D515A9321DCFFEC00BCE7AD /* GMLConstantMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A9221DCFFEC00BCE7AD /* GMLConstantMode.swift */; };
+		6D515A9421DD001200BCE7AD /* GMLEnumMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A8F21DCFFA900BCE7AD /* GMLEnumMode.swift */; };
+		6D515A9521DD001700BCE7AD /* GMLConstantMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A9221DCFFEC00BCE7AD /* GMLConstantMode.swift */; };
+		6D515A9721DD006900BCE7AD /* GMLFileLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A9621DD006900BCE7AD /* GMLFileLoaderService.swift */; };
+		6D515A9921DD021800BCE7AD /* GMLFileParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D515A9821DD021800BCE7AD /* GMLFileParserService.swift */; };
 		6D970EE921DB763E00F218FF /* GMLFileMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D970EE821DB763E00F218FF /* GMLFileMode.swift */; };
 		6DBD6DB821DA607A00672186 /* GMLRenameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD6DB721DA607A00672186 /* GMLRenameManager.swift */; };
 		6DBD6DBF21DA616700672186 /* GMLClassDefineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD6DBE21DA616700672186 /* GMLClassDefineType.swift */; };
@@ -45,6 +69,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6D515A6021DCFDA400BCE7AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1878EA9F21DC519B00E4B51A /* GMLOCMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLOCMode.swift; sourceTree = "<group>"; };
 		1878EAA121DC53B300E4B51A /* GMLOCClassSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLOCClassSet.swift; sourceTree = "<group>"; };
@@ -67,6 +103,14 @@
 		6D3DF00A21DA287200D8D3BD /* GMLPropertyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLPropertyService.swift; sourceTree = "<group>"; };
 		6D3DF00C21DA288200D8D3BD /* GMLMethodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLMethodService.swift; sourceTree = "<group>"; };
 		6D3DF00E21DA290A00D8D3BD /* GMLPropertyMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLPropertyMode.swift; sourceTree = "<group>"; };
+		6D515A5A21DCFC7C00BCE7AD /* GMLFileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLFileService.swift; sourceTree = "<group>"; };
+		6D515A5C21DCFCFB00BCE7AD /* GMLClassSetMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLClassSetMode.swift; sourceTree = "<group>"; };
+		6D515A6221DCFDA400BCE7AD /* GMLRenameCommandLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GMLRenameCommandLine; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D515A6421DCFDA400BCE7AD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6D515A8F21DCFFA900BCE7AD /* GMLEnumMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLEnumMode.swift; sourceTree = "<group>"; };
+		6D515A9221DCFFEC00BCE7AD /* GMLConstantMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLConstantMode.swift; sourceTree = "<group>"; };
+		6D515A9621DD006900BCE7AD /* GMLFileLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLFileLoaderService.swift; sourceTree = "<group>"; };
+		6D515A9821DD021800BCE7AD /* GMLFileParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLFileParserService.swift; sourceTree = "<group>"; };
 		6D970EE821DB763E00F218FF /* GMLFileMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLFileMode.swift; sourceTree = "<group>"; };
 		6DBD6DB721DA607A00672186 /* GMLRenameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRenameManager.swift; sourceTree = "<group>"; };
 		6DBD6DBE21DA616700672186 /* GMLClassDefineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLClassDefineType.swift; sourceTree = "<group>"; };
@@ -96,6 +140,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D515A5F21DCFDA400BCE7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +155,7 @@
 			children = (
 				1878EAA121DC53B300E4B51A /* GMLOCClassSet.swift */,
 				6DBD6DC021DA618400672186 /* GMLClassMode.swift */,
+				6D515A5C21DCFCFB00BCE7AD /* GMLClassSetMode.swift */,
 			);
 			path = ClassMode;
 			sourceTree = "<group>";
@@ -113,6 +165,7 @@
 			children = (
 				1878EAA921DC6DEB00E4B51A /* GMLOCEnumSetMode.swift */,
 				1878EAAB21DC6E2900E4B51A /* GMLOCEnumMode.swift */,
+				6D515A8F21DCFFA900BCE7AD /* GMLEnumMode.swift */,
 			);
 			path = EnumMode;
 			sourceTree = "<group>";
@@ -123,6 +176,7 @@
 				6D3DEFD621DA252E00D8D3BD /* GMLRenameFile */,
 				6D3DEFE921DA253100D8D3BD /* GMLRenameFileTests */,
 				6D3DEFF421DA253100D8D3BD /* GMLRenameFileUITests */,
+				6D515A6321DCFDA400BCE7AD /* GMLRenameCommandLine */,
 				6D3DEFD521DA252E00D8D3BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +187,7 @@
 				6D3DEFD421DA252E00D8D3BD /* GMLRenameFile.app */,
 				6D3DEFE621DA253100D8D3BD /* GMLRenameFileTests.xctest */,
 				6D3DEFF121DA253100D8D3BD /* GMLRenameFileUITests.xctest */,
+				6D515A6221DCFDA400BCE7AD /* GMLRenameCommandLine */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,6 +227,7 @@
 		6D3DF00721DA281000D8D3BD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				6D515A9121DCFFDA00BCE7AD /* ConstantMode */,
 				1878EAAE21DC9E5200E4B51A /* EnumMode */,
 				1878EAAD21DC8E3000E4B51A /* ClassMode */,
 				6DBD6DBD21DA614300672186 /* DefineType */,
@@ -182,12 +238,31 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		6D515A6321DCFDA400BCE7AD /* GMLRenameCommandLine */ = {
+			isa = PBXGroup;
+			children = (
+				6D515A6421DCFDA400BCE7AD /* main.swift */,
+			);
+			path = GMLRenameCommandLine;
+			sourceTree = "<group>";
+		};
+		6D515A9121DCFFDA00BCE7AD /* ConstantMode */ = {
+			isa = PBXGroup;
+			children = (
+				6D515A9221DCFFEC00BCE7AD /* GMLConstantMode.swift */,
+			);
+			path = ConstantMode;
+			sourceTree = "<group>";
+		};
 		6DBD6DB921DA60F200672186 /* ClassServices */ = {
 			isa = PBXGroup;
 			children = (
 				6D3DF00821DA282500D8D3BD /* GMLClassService.swift */,
 				6D3DF00A21DA287200D8D3BD /* GMLPropertyService.swift */,
 				6D3DF00C21DA288200D8D3BD /* GMLMethodService.swift */,
+				6D515A5A21DCFC7C00BCE7AD /* GMLFileService.swift */,
+				6D515A9621DD006900BCE7AD /* GMLFileLoaderService.swift */,
+				6D515A9821DD021800BCE7AD /* GMLFileParserService.swift */,
 			);
 			path = ClassServices;
 			sourceTree = "<group>";
@@ -267,6 +342,23 @@
 			productReference = 6D3DEFF121DA253100D8D3BD /* GMLRenameFileUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6D515A6121DCFDA400BCE7AD /* GMLRenameCommandLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D515A6621DCFDA400BCE7AD /* Build configuration list for PBXNativeTarget "GMLRenameCommandLine" */;
+			buildPhases = (
+				6D515A5E21DCFDA400BCE7AD /* Sources */,
+				6D515A5F21DCFDA400BCE7AD /* Frameworks */,
+				6D515A6021DCFDA400BCE7AD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMLRenameCommandLine;
+			productName = GMLRenameCommandLine;
+			productReference = 6D515A6221DCFDA400BCE7AD /* GMLRenameCommandLine */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -288,6 +380,9 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 6D3DEFD321DA252E00D8D3BD;
 					};
+					6D515A6121DCFDA400BCE7AD = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 6D3DEFCF21DA252E00D8D3BD /* Build configuration list for PBXProject "GMLRenameFile" */;
@@ -306,6 +401,7 @@
 				6D3DEFD321DA252E00D8D3BD /* GMLRenameFile */,
 				6D3DEFE521DA253100D8D3BD /* GMLRenameFileTests */,
 				6D3DEFF021DA253100D8D3BD /* GMLRenameFileUITests */,
+				6D515A6121DCFDA400BCE7AD /* GMLRenameCommandLine */,
 			);
 		};
 /* End PBXProject section */
@@ -341,19 +437,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D515A9321DCFFEC00BCE7AD /* GMLConstantMode.swift in Sources */,
+				6D515A5B21DCFC7C00BCE7AD /* GMLFileService.swift in Sources */,
 				1878EAA021DC519B00E4B51A /* GMLOCMode.swift in Sources */,
 				6DBD6DC121DA618400672186 /* GMLClassMode.swift in Sources */,
 				6D3DF00921DA282500D8D3BD /* GMLClassService.swift in Sources */,
 				6D3DF00B21DA287200D8D3BD /* GMLPropertyService.swift in Sources */,
 				6DBD6DBF21DA616700672186 /* GMLClassDefineType.swift in Sources */,
+				6D515A9021DCFFA900BCE7AD /* GMLEnumMode.swift in Sources */,
 				6D3DF00D21DA288200D8D3BD /* GMLMethodService.swift in Sources */,
 				1878EAA221DC53B300E4B51A /* GMLOCClassSet.swift in Sources */,
 				6DBD6DC321DA619200672186 /* GMLMethodMode.swift in Sources */,
+				6D515A9921DD021800BCE7AD /* GMLFileParserService.swift in Sources */,
 				6DBD6DB821DA607A00672186 /* GMLRenameManager.swift in Sources */,
+				6D515A5D21DCFCFB00BCE7AD /* GMLClassSetMode.swift in Sources */,
 				1878EAAA21DC6DEB00E4B51A /* GMLOCEnumSetMode.swift in Sources */,
 				6D970EE921DB763E00F218FF /* GMLFileMode.swift in Sources */,
 				6D3DEFDA21DA252E00D8D3BD /* ViewController.swift in Sources */,
 				1878EAAC21DC6E2900E4B51A /* GMLOCEnumMode.swift in Sources */,
+				6D515A9721DD006900BCE7AD /* GMLFileLoaderService.swift in Sources */,
 				6D3DF00F21DA290A00D8D3BD /* GMLPropertyMode.swift in Sources */,
 				6D3DEFD821DA252E00D8D3BD /* AppDelegate.swift in Sources */,
 			);
@@ -372,6 +474,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D3DEFF621DA253100D8D3BD /* GMLRenameFileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D515A5E21DCFDA400BCE7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D515A6E21DCFDC900BCE7AD /* GMLClassDefineType.swift in Sources */,
+				6D515A7521DCFDC900BCE7AD /* GMLMethodService.swift in Sources */,
+				6D515A7021DCFDC900BCE7AD /* GMLPropertyMode.swift in Sources */,
+				6D515A7421DCFDC900BCE7AD /* GMLPropertyService.swift in Sources */,
+				6D515A7721DCFDC900BCE7AD /* GMLRenameManager.swift in Sources */,
+				6D515A6F21DCFDC900BCE7AD /* GMLOCMode.swift in Sources */,
+				6D515A9421DD001200BCE7AD /* GMLEnumMode.swift in Sources */,
+				6D515A7321DCFDC900BCE7AD /* GMLClassService.swift in Sources */,
+				6D515A6C21DCFDC900BCE7AD /* GMLClassMode.swift in Sources */,
+				6D515A7621DCFDC900BCE7AD /* GMLFileService.swift in Sources */,
+				6D515A7121DCFDC900BCE7AD /* GMLMethodMode.swift in Sources */,
+				6D515A6A21DCFDB800BCE7AD /* GMLOCEnumMode.swift in Sources */,
+				6D515A6521DCFDA400BCE7AD /* main.swift in Sources */,
+				6D515A7221DCFDC900BCE7AD /* GMLFileMode.swift in Sources */,
+				6D515A6D21DCFDC900BCE7AD /* GMLClassSetMode.swift in Sources */,
+				6D515A9521DD001700BCE7AD /* GMLConstantMode.swift in Sources */,
+				6D515A6B21DCFDC900BCE7AD /* GMLOCClassSet.swift in Sources */,
+				6D515A6921DCFDB600BCE7AD /* GMLOCEnumSetMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +758,24 @@
 			};
 			name = Release;
 		};
+		6D515A6721DCFDA400BCE7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		6D515A6821DCFDA400BCE7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -666,6 +811,15 @@
 			buildConfigurations = (
 				6D3DF00121DA253100D8D3BD /* Debug */,
 				6D3DF00221DA253100D8D3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D515A6621DCFDA400BCE7AD /* Build configuration list for PBXNativeTarget "GMLRenameCommandLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D515A6721DCFDA400BCE7AD /* Debug */,
+				6D515A6821DCFDA400BCE7AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

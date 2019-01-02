@@ -11,13 +11,11 @@ import Cocoa
 class GMLClassMode: NSObject {
     
     let mClassName : String
+    let mFilePath : String
     
-//    fileprivate var relationFileSet : NSHashTable<GMLFileMode> = {
-//        return NSHashTable.init(options: .weakMemory)
-//    }()
-    
-    init(className: String) {
+    init(className: String, filePath: String) {
         mClassName = className
+        mFilePath = filePath
         super.init()
     }
 }

@@ -7,24 +7,14 @@
 //
 
 import Cocoa
-
-enum GMLOCUnit : String {
-    case h = "h"
-    case m = "m"
-    case `enum` = "enum"
-    case staticConstant = "staticConstant"
-    case alias = "alias"
-}
 /**
  * OC 文件模型
  */
 class GMLOCMode: NSObject {
     
+    
     let mHFilePath : String
     let mMFilePath : String?
-    
-    let classSet = GMLOCClassSet.init()
-    let enumSet = GMLOCEnumSetMode.init()
     
     init(hFilePath: String, mFilePath: String?) {
         mHFilePath = hFilePath
