@@ -9,21 +9,21 @@
 import Cocoa
 
 enum GMLFileLoaderEror : Error {
-    case notFound,
-    case notFile,
+    case notFound
+    case notFile
 }
 
-/// 文件加载器
+/// 加载文件
 class GMLFileLoaderService: NSObject {
     static let `default` = GMLFileLoaderService.init()
     
     let fileManager = FileManager.default
     
-    func syncLoad(filePath: String) throws -> String {
-        guard fileManager.isExecutableFile(atPath: filePath) else {
-            throw GMLFileLoaderEror.notFound
-        }
-        
+    func fileExists(atPath filePath: String) -> Bool {
+        return fileManager.fileExists(atPath:filePath)
+    }
+    
+    func syncLoad(atPath filePath: String) throws -> String {
         let fileContent = try String(contentsOfFile: filePath)
         return fileContent
     }

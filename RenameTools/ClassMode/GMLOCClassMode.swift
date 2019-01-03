@@ -1,5 +1,5 @@
 //
-//  GMLClassMode.swift
+//  GMLOCClassMode.swift
 //  GMLRenameFile
 //
 //  Created by GML on 2018/12/31.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class GMLClassMode: NSObject {
+class GMLOCClassMode: NSObject {
     
     let mClassName : String
     let mFilePath : String
@@ -22,7 +22,7 @@ class GMLClassMode: NSObject {
 
 
 //// MARK: - 类关联的文件
-//extension GMLClassMode {
+//extension GMLOCClassMode {
 //
 //    var relationFileList : NSHashTable<GMLFileMode> {
 //        return relationFileSet

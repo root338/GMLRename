@@ -8,6 +8,10 @@
 
 import Cocoa
 
+protocol GMLClassServiceDelegate : NSObjectProtocol {
+    func service(_ service: GMLClassService, classMode: GMLOCClassMode)
+}
+
 class GMLClassService: NSObject {
     
     let propertyService  = GMLPropertyService.init()
